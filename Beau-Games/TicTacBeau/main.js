@@ -3,10 +3,10 @@ var x = 0;
 function turn(box) {
     if (box.innerHTML==""){
         if (x%2==0){
-            box.innerHTML = "<img src=\"beau.png\">";
+            box.innerHTML = `<img src="beau.png">`;
         }
         else {
-            box.innerHTML = "<img src=\"spoing.png\">";
+            box.innerHTML = `<img src="spoing.png">`;
         }
         x += 1;
         check();
